@@ -4,9 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class Levels_Menu : MonoBehaviour
 {
+    public GameObject StartMenu;
+    public GameObject Levels_List;
+    
     public void Go_Back()
     {
-        SceneManager.LoadScene("Start_Menu");
+        StartMenu.SetActive(true);
+        Levels_List.SetActive(false);
     }
     public void level_1()
     {
