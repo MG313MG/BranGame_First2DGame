@@ -132,9 +132,9 @@ MonoBehaviour:
   isPlayer: 0
   Ammo_is_Loaded: 0
   BullethasSpawn: 0
-  Bullet: {fileID: 1509768998086615127, guid: bf101d247a9ed14498b687f1f4110430, type: 3}
+  Bullet: {fileID: 1509768998086615127, guid: 3d4468bf5d1baa44fae83f2fd3410197, type: 3}
   Attakoridle: 0
-  bullet: {fileID: 0}
+  bullet: {fileID: 2955757892179393511, guid: 3d4468bf5d1baa44fae83f2fd3410197, type: 3}
 --- !u!61 &2735465522479122257
 BoxCollider2D:
   m_ObjectHideFlags: 0
