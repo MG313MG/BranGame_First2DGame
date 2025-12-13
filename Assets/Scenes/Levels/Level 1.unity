@@ -2628,7 +2628,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 3
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5f1b9c706b2a6d74f8aa1fd5b24aafd8, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -45763,11 +45763,11 @@ Transform:
   m_GameObject: {fileID: 1055494853}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6646605, y: 0.122710824, z: 9.965136}
+  m_LocalPosition: {x: -0.09000003, y: 1.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1174517671}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1093643342
 GameObject:
@@ -45961,8 +45961,7 @@ Transform:
   m_LocalPosition: {x: 1.5746604, y: 1.1072892, z: -9.965136}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1055494856}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1174517672
@@ -49098,6 +49097,7 @@ SceneRoots:
   - {fileID: 781135860}
   - {fileID: 1252844992}
   - {fileID: 1283713851}
+  - {fileID: 1055494856}
   - {fileID: 1174517671}
   - {fileID: 1569019155}
   - {fileID: 148988191}
