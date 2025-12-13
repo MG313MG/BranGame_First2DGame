@@ -22,3 +22,20 @@
 *.pidb
 *.booproj
 
+# فایل‌های خروجی یا بسته‌بندی‌شده
+*.apk
+*.aab
+*.exe
+
+# فایل‌های کش و سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# پوشه‌های پکیج‌های خارجی که نباید تغییر کنن
+Packages/manifest.json
+Packages/packages-lock.json
+
+# اگر از Rider یا VSCode استفاده می‌کنی:
+.idea/
+.vscode/
+*.code-workspace
