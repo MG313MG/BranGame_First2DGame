@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 126
+  controlID: 374
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26
+  controlID: 271
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 84
+  controlID: 295
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -972,9 +972,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 5.388892, y: 0.17570662, z: 1.8861742}
+    m_Target: {x: 2.9202585, y: 1.6120237, z: 1.3604467}
     speed: 2
-    m_Value: {x: 5.388892, y: 0.17570662, z: 1.8861742}
+    m_Value: {x: 2.9202585, y: 1.6120237, z: 1.3604467}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1024,9 +1024,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.035678
+    m_Target: 14.113521
     speed: 2
-    m_Value: 12.035678
+    m_Value: 14.113521
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1280,7 +1280,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0afbffff
+      m_ExpandedIDs: 8a2efffffa32ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1352,7 +1352,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1362,16 +1362,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/Scenes/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 49
-  m_LastProjectPath: E:\Unity projects\2D Game
+  m_LastProjectPath: E:\GitHub Unity Projects\BranGame_First2DGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 482.80002}
-    m_SelectedIDs: 24ba0000
-    m_LastClickedID: 47652
-    m_ExpandedIDs: 0000000030b8000032b8000034b8000036b8000038b800003ab800003cb800003eb80000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: da180100
+    m_LastClickedID: 71898
+    m_ExpandedIDs: 0000000042b8000044b8000046b8000048b800004ab800004cb80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1400,7 +1400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000030b8000032b8000034b8000036b8000038b800003ab800003cb800003eb80000
+    m_ExpandedIDs: 0000000042b8000044b8000046b8000048b800004ab800004cb80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
