@@ -98,7 +98,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -175,8 +175,8 @@ MonoBehaviour:
     y: 0
     width: 724.8
     height: 368
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 45830
+  m_LastSelectedObjectID: 45942
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1121,8 +1121,8 @@ MonoBehaviour:
     y: 0
     width: 424.8
     height: 406.4
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -1167,9 +1167,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b2f5ffff
-      m_LastClickedID: -2638
-      m_ExpandedIDs: 0afbffffe6b2000064b30000b4b30000
+      m_SelectedIDs: 6af1ffff06b30000
+      m_LastClickedID: 45830
+      m_ExpandedIDs: a8f3ffff0afbffff64b30000bcb30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1267,7 +1267,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Levels
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1277,16 +1277,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/Scenes/Levels
+  - Assets
   m_LastFoldersGridSize: 49
   m_LastProjectPath: E:\GitHub Unity Projects\BranGame_First2DGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: eab70000
-    m_LastClickedID: 47082
-    m_ExpandedIDs: 0000000072b7000074b7000076b7000078b700007ab700007cb700007eb7000080b7000082b70000e0b7000000ca9a3b
+    m_SelectedIDs: 86b70000
+    m_LastClickedID: 46982
+    m_ExpandedIDs: 000000007ab700007cb700007eb7000080b7000082b7000084b7000086b7000088b700008ab7000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1315,7 +1315,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000072b7000074b7000076b7000078b700007ab700007cb700007eb7000080b7000082b70000
+    m_ExpandedIDs: 000000007ab700007cb700007eb7000080b7000082b7000084b7000086b7000088b700008ab70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1341,9 +1341,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b2f5ffff
-    m_LastClickedInstanceID: -2638
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 6af1ffff06b30000
+    m_LastClickedInstanceID: -3734
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 16bc000036bc000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1369,7 +1369,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 17.600006}
     m_GridSize: 49
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
