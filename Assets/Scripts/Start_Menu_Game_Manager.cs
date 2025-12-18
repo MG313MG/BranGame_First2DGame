@@ -6,6 +6,7 @@ public class Start_Menu_Game_Manager : MonoBehaviour
     public GameObject Start_menu;
     public GameObject Play_List;
     public GameObject Store_menu;
+    public GameObject Setting_menu;
 
     public void Open_Play_List()
     {
@@ -17,11 +18,17 @@ public class Start_Menu_Game_Manager : MonoBehaviour
         Start_menu.SetActive(true);
         Play_List.SetActive(false);
         Store_menu.SetActive(false);
+        Setting_menu.SetActive(false);
     }
     public void Open_store_menu()
     {
         Start_menu.SetActive(false);
         Store_menu.SetActive(true);
+    }
+    public void Open_Setting()
+    {
+        Start_menu.SetActive(false);
+        Setting_menu.SetActive(true);
     }
     public void Open_Level_1()
     {
