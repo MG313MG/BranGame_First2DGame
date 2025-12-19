@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float Speed;
     [SerializeField] private float Jump;
 
+    [Header("Score")]
+    public float Score;
+
     [Header("Collision")]
     [SerializeField] private float GroundCheckDistance;
     [SerializeField] private float WallCkeckDistance;
