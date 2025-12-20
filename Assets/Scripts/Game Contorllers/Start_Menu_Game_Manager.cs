@@ -24,7 +24,6 @@ public class Start_Menu_Game_Manager : MonoBehaviour
     public void Back_to_Playe_List_from_Levels()
     {
         SceneManager.LoadScene("Start_menu");
-        StartCoroutine(Open_Play_List_C());
     }
     public void Open_store_menu()
     {
@@ -55,14 +54,5 @@ public class Start_Menu_Game_Manager : MonoBehaviour
     public void Quit_Game()
     {
         Application.Quit();
-    }
-
-    private IEnumerator Open_Play_List_C()
-    {
-        yield return new WaitForSeconds(1f);
-        Start_menu.SetActive(true);
-        Play_List.SetActive(false);
-        Store_menu.SetActive(false);
-        Setting_menu.SetActive(false);
     }
 }
