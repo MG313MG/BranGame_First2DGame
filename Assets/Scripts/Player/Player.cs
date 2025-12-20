@@ -23,7 +23,12 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask LayerGround;
 
     [Header("Prefab")]
-    [SerializeField] private GameObject DieEffect; 
+    [SerializeField] private GameObject DieEffect;
+
+    [Header("Stars")]
+    [SerializeField] private GameObject Star1;
+    [SerializeField] private GameObject Star2;
+    [SerializeField] private GameObject Star3;
 
     private bool IsGrounded;
     private bool IsWall;
@@ -50,7 +55,7 @@ public class Player : MonoBehaviour
     {
         if (Health <= 0)
         {
-            Instantiate(DieEffect, transform.position,Quaternion.identity);
+            Instantiate(DieEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 
@@ -70,12 +75,29 @@ public class Player : MonoBehaviour
         {
             Hit();
         }
+        
+
+        //Handle_Stars_Win_menu();
 
         Movement();
+
         FlipFace();
+
         Jump_key();
+
         Anim_idle_run();
+
         HandleCollision();
+    }
+
+    private void Handle_Stars_Win_menu()
+    {
+        if (Score > 10)
+            Star1.SetActive(true);
+        if (Score > 20)
+            Star2.SetActive(true);
+        if (Score > 35)
+            Star3.SetActive(true);
     }
 
     private void HandleCollision()

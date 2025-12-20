@@ -20,6 +20,19 @@ public class Start_Menu_Game_Manager : MonoBehaviour
         Store_menu.SetActive(false);
         Setting_menu.SetActive(false);
     }
+    public void Back_to_Start_Menu_from_Levels()
+    {
+        SceneManager.LoadScene("Start_menu");
+        Start_menu.SetActive(true);
+        Play_List.SetActive(false);
+        Store_menu.SetActive(false);
+        Setting_menu.SetActive(false);
+    }
+    public void Back_to_Play_List_from_Levels()
+    {
+        SceneManager.LoadScene("Start_menu");
+        Open_Play_List();
+    }
     public void Open_store_menu()
     {
         Start_menu.SetActive(false);
