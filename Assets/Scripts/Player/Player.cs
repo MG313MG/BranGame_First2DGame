@@ -75,9 +75,8 @@ public class Player : MonoBehaviour
         {
             Hit();
         }
-        
 
-        //Handle_Stars_Win_menu();
+        Handle_Stars();
 
         Movement();
 
@@ -90,14 +89,17 @@ public class Player : MonoBehaviour
         HandleCollision();
     }
 
-    private void Handle_Stars_Win_menu()
+    private void Handle_Stars()
     {
-        if (Score > 10)
-            Star1.SetActive(true);
-        if (Score > 20)
-            Star2.SetActive(true);
-        if (Score > 35)
-            Star3.SetActive(true);
+        if (Health > 0)
+        {
+            if (Score > 10)
+                Star1.SetActive(true);
+            if (Score > 20)
+                Star2.SetActive(true);
+            if (Score > 35)
+                Star3.SetActive(true);
+        }
     }
 
     private void HandleCollision()
