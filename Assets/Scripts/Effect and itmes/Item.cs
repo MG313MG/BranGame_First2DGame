@@ -6,7 +6,7 @@ public class Item : MonoBehaviour
 
     private GameObject FindPlayer;
 
-    [SerializeField] private float Add_score;
+    [SerializeField] private int Add_score;
 
     private Player player;
 
@@ -21,6 +21,7 @@ public class Item : MonoBehaviour
         if (collision.GetComponent<Player>() != null)
         {
             player.Score += Add_score;
+            player.Set_Score();
             Debug.Log(player.Score);
             Instantiate(EffectPerfab, transform.position,Quaternion.identity);
             Destroy(gameObject);

@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -15,7 +16,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float Jump;
 
     [Header("Score")]
-    public float Score;
+    public int Score;
+    public TMP_Text Score_text;
 
     [Header("Collision")]
     [SerializeField] private float GroundCheckDistance;
@@ -87,6 +89,11 @@ public class Player : MonoBehaviour
         Anim_idle_run();
 
         HandleCollision();
+    }
+
+    public void Set_Score()
+    {
+        Score_text.text = Score.ToString();
     }
 
     private void Handle_Stars()

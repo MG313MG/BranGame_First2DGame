@@ -16,9 +16,9 @@ public class GameManager : MonoBehaviour
     public GameObject Win;
     public GameObject Lose;
     public GameObject Pause;
+    public GameObject Score;
 
     [SerializeField] private bool isStop;
-
     
     void Start()
     {
@@ -41,11 +41,13 @@ public class GameManager : MonoBehaviour
                 {
                     Time.timeScale = 0;
                     Pause.SetActive(true);
+                    Score.SetActive(true);
                 }
                 else
                 {
                     Time.timeScale = 1;
                     Pause.SetActive(false);
+                    Score.SetActive(false);
                 }
                 isStop = !isStop;
             }
@@ -55,7 +57,8 @@ public class GameManager : MonoBehaviour
         {
             Lose.SetActive(true);
             Time.timeScale = 0;
-            Music.SetActive(false);
+            Score.SetActive(true);
+            //Music.SetActive(false);
         }
         else 
         {
@@ -76,7 +79,8 @@ public class GameManager : MonoBehaviour
         {
             Win.SetActive(true);
             Time.timeScale = 0;
-            Music.SetActive(true);
+            Score.SetActive(true);
+            //Music.SetActive(true);
         }
     }
 }
