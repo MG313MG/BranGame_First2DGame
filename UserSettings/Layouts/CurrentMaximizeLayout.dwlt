@@ -66,7 +66,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - E:\GitHub Unity Projects\BranGame_First2DGame\Library\PlayModeViewStates\a5bc9c53288f24f4591e171b4a3acbca
+  - E:\GitHub Unity Projects\BranGame_First2DGame\Library\PlayModeViewStates\8a6f7d529c3fd70489a035c88ddcaf58
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -748,9 +748,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -5.2385683, y: 0.703805, z: 0.3086958}
+    m_Target: {x: 110.28612, y: 1066.0724, z: -1.2671092}
     speed: 2
-    m_Value: {x: -5.2385683, y: 0.703805, z: 0.3086958}
+    m_Value: {x: 110.28612, y: 1066.0724, z: -1.2671092}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -800,9 +800,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.0840225
+    m_Target: 208.20845
     speed: 2
-    m_Value: 9.0840225
+    m_Value: 208.20845
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1080,13 +1080,13 @@ MonoBehaviour:
     y: 368
     width: 724.8
     height: 348.8
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 51, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 2}
   m_Panes:
-  - {fileID: 2}
   - {fileID: 8}
-  m_Selected: 0
+  - {fileID: 2}
+  m_Selected: 1
   m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 50790
+  m_LastSelectedObjectID: 45808
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1151,7 +1151,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6090
+  controlID: 8554
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -1172,8 +1172,8 @@ MonoBehaviour:
     y: 0
     width: 421.60004
     height: 406.4
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -1218,9 +1218,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 66c60000
-      m_LastClickedID: 50790
-      m_ExpandedIDs: c6edfffff2f5ffff0afbffff66c60000b6c600005cc700009ac80000bac90000
+      m_SelectedIDs: aab60000c6b4000048b30000
+      m_LastClickedID: 45896
+      m_ExpandedIDs: 0afbffff5cb3000092b300004eb4000016b500009ab50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1318,7 +1318,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Game Contorllers
+    - Assets/Scenes/Menu
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1328,16 +1328,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/Scripts/Game Contorllers
+  - Assets/Scenes/Menu
   m_LastFoldersGridSize: 49
   m_LastProjectPath: E:\GitHub Unity Projects\BranGame_First2DGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6bc0000
-    m_LastClickedID: 48326
-    m_ExpandedIDs: 00000000caba0000ccba0000ceba0000d4ba0000aebc000000ca9a3b
+    m_SelectedIDs: 6cba0000
+    m_LastClickedID: 47724
+    m_ExpandedIDs: 0000000062ba000064ba000066ba00006aba00006eba000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1366,7 +1366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000caba0000ccba0000ceba0000d4ba000000ca9a3b
+    m_ExpandedIDs: 0000000062ba000064ba000066ba00006eba000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1392,8 +1392,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 66c60000
-    m_LastClickedInstanceID: 50790
+    m_SelectedInstanceIDs: aab60000c6b4000048b30000
+    m_LastClickedInstanceID: 46762
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 16bc000036bc000026b70000000000003ac70000feb70000
     m_RenameOverlay:
@@ -1443,8 +1443,8 @@ MonoBehaviour:
     y: 0
     width: 389.59998
     height: 716.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
