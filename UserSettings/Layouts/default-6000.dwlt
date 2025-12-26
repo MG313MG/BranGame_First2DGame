@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 144
+  controlID: 121
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 26
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 94
+  controlID: 50
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - E:\GitHub Unity Projects\BranGame_First2DGame\Library\PlayModeViewStates\a5bc9c53288f24f4591e171b4a3acbca
+  - E:\GitHub Unity Projects\BranGame_First2DGame\Library\PlayModeViewStates\8a6f7d529c3fd70489a035c88ddcaf58
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -974,9 +974,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 14.870582, y: 21.338432, z: 0.05715506}
+    m_Target: {x: 431.5218, y: 170.9703, z: -1.2951597}
     speed: 2
-    m_Value: {x: 14.870582, y: 21.338432, z: 0.05715506}
+    m_Value: {x: 431.5218, y: 170.9703, z: -1.2951597}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1026,9 +1026,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 34.238125
+    m_Target: 211.01196
     speed: 2
-    m_Value: 34.238125
+    m_Value: 211.01196
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1110,7 +1110,6 @@ MonoBehaviour:
     - {fileID: -661355389640757884, guid: a3512043aee620343b4306b37f5e30c5, type: 2}
     - {fileID: -8116728552624262782, guid: edaec9e56c1f9d0449e64626b2af70b2, type: 2}
     - {fileID: 1887539489914427231, guid: c4861ed0bff1b144d8727af17e50f744, type: 2}
-    - {fileID: -3722819525082833124, guid: 27a1090f4a8c9364ea9362ecca29d3ae, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -1272,28 +1271,10 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.44370535
-      e01: 0
-      e02: 0
-      e03: 197.66953
-      e10: 0
-      e11: 0.44370535
-      e12: 0
-      e13: 158.35205
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 27a1090f4a8c9364ea9362ecca29d3ae, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 61c95a8dc94b9fd429e83adcf735674c, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -7811004483928146051, guid: 27a1090f4a8c9364ea9362ecca29d3ae, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  - m_Target: {fileID: -3722819525082833124, guid: 27a1090f4a8c9364ea9362ecca29d3ae, type: 2}
+  - m_Target: {fileID: -2783242048270292044, guid: 61c95a8dc94b9fd429e83adcf735674c, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1344,7 +1325,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 94720
+  m_LastSelectedObjectID: 45808
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1386,7 +1367,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 54b90000
       m_LastClickedID: 0
-      m_ExpandedIDs: fe4affff667bffff727cffff9e94ffff92a5ffffbca7ffff58adffff4ef1ffff06f2ffff1ef5ffff0afbffff26b3000086b30000e6b300001ab4000084b4000006b500008cb50000f0b500001eb700007cbe00009ac90000801b010032380100c4380100d66f01005a700100e2720100
+      m_ExpandedIDs: 0afbfffff0b200004eb40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1458,7 +1439,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Levels
+    - Assets/Scenes/Menu
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1468,16 +1449,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/Scenes/Levels
+  - Assets/Scenes/Menu
   m_LastFoldersGridSize: 49
   m_LastProjectPath: E:\GitHub Unity Projects\BranGame_First2DGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 7.600006}
-    m_SelectedIDs: 74ba0000
-    m_LastClickedID: 47732
-    m_ExpandedIDs: 000000005eba000060ba000062ba000066ba00006cba00006eba000076ba000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a4ba0000
+    m_LastClickedID: 47780
+    m_ExpandedIDs: 000000003cba00003eba000040ba000042ba000044ba000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1506,7 +1487,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005eba000060ba000062ba000064ba000066ba0000
+    m_ExpandedIDs: 000000003cba00003eba000040ba000042ba000044ba0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1607,7 +1588,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 137.59998
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
