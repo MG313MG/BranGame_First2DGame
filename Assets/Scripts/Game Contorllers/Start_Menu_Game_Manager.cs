@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,6 +21,10 @@ public class Start_Menu_Game_Manager : MonoBehaviour
         Store_menu.SetActive(false);
         Setting_menu.SetActive(false);
     }
+    public void Back_to_Playe_List_from_Levels()
+    {
+        SceneManager.LoadScene("Start_menu");
+    }
     public void Open_store_menu()
     {
         Start_menu.SetActive(false);
@@ -41,6 +46,10 @@ public class Start_Menu_Game_Manager : MonoBehaviour
     public void Open_Level_3()
     {
         SceneManager.LoadScene("Level 3");
+    }
+    public void Reload_Level()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void Quit_Game()
     {

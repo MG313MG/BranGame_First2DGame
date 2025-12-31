@@ -199,3 +199,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EffectPerfab: {fileID: 9180988156147279899, guid: 2f3ccc65bdc84d24ab643f3106c19752, type: 3}
+  Add_score: 10
