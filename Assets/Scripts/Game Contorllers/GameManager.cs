@@ -40,14 +40,14 @@ public class GameManager : MonoBehaviour
                     Time.timeScale = 0;
                     Pause.SetActive(true);
                     Score.SetActive(true);
-                    AudioManager.Instance.Pause_BG_Music();
+                    AudioManager.Instance.PlayUISounds(UISounds.Pause_BG_Music);
                 }
                 else
                 {
                     Time.timeScale = 1;
                     Pause.SetActive(false);
                     Score.SetActive(false);
-                    AudioManager.Instance.UnPause_BG_Music();
+                    AudioManager.Instance.PlayUISounds(UISounds.UnPause_BG_Music);
                 }
                 isStop = !isStop;
             }
@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
         if (Player == null)
         {
             Lose.SetActive(true);
-            AudioManager.Instance.Lose_Music();
+            AudioManager.Instance.PlayUISounds(UISounds.LoseMusic);
             Time.timeScale = 0;
             Score.SetActive(true);
             //Music.SetActive(false);
@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
         if (End == null)
         {
             Win.SetActive(true);
-            AudioManager.Instance.Win_Music();
+            AudioManager.Instance.PlayUISounds(UISounds.WinMusic);
             Time.timeScale = 0;
             Score.SetActive(true);
             //Music.SetActive(true);

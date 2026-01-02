@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
     public TMP_Text Score_text;
 
     [Header("Audios")]
-    [SerializeField] private AudioClip A_Walk;
     [SerializeField] private AudioClip A_Jump;
     [SerializeField] private AudioClip A_Damage;
 
@@ -127,11 +126,11 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, Jump);
-            AudioManager.Instance.Jump_Player();
+            AudioManager.Instance.PlayPlayerSounds(PlayerSounds.jump);
         }
         if (Input.GetKeyDown(KeyCode.Space) && !IsGrounded && IsWall)
         {
-            AudioManager.Instance.Jump_Player();
+            AudioManager.Instance.PlayPlayerSounds(PlayerSounds.jump);  
             if (FaceRight)
             {
                 FaceRight = false;
@@ -210,7 +209,7 @@ public class Player : MonoBehaviour
             return;
 
         Health -= 1;
-        AudioManager.Instance.Damage_Player();
+        AudioManager.Instance.PlayPlayerSounds(PlayerSounds.damage);
         anim.SetTrigger("isHit");
 
         IsWallJumping = false;

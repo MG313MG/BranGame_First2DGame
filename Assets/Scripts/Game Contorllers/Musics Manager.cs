@@ -2,13 +2,17 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum PlayerSounds {jump, damage, eat}
+public enum UISounds {WinMusic,LoseMusic, Pause_BG_Music, UnPause_BG_Music}
+public enum EnemiesSounds {Cast_Bullot,Cast_Rino_to_Wall }
+
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
     public AudioSource MusicSource;
     public AudioSource PlayerSource;
-    public AudioSource EffectsSource;
+    public AudioSource UISource;
     public AudioSource EnemiesSource;
 
     [Header("UI Musics")]
@@ -24,7 +28,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip EatClip;
     [Header("Enemies")]
     public AudioClip Cast_Bullot_Clip;
-    public AudioClip Cast_Rino_to_Wall;
+    public AudioClip Cast_Rino_to_Wall_Clip;
 
     [SerializeField] private bool isLose_Music_Played;
 
@@ -48,59 +52,66 @@ public class AudioManager : MonoBehaviour
             MusicSource.Play();
         }
     }
-
-    // Player Audios
-    public void Jump_Player()
-    {
-        PlayerSource.PlayOneShot(JumpClip, 0.7f);
-    }
-    public void Damage_Player()
-    {
-        PlayerSource.PlayOneShot(DamageClip, 0.45f);
-    }
     
-    //Items Audios
-    public void Eat_Fruits()
+    // Player Audios
+    public void PlayPlayerSounds(PlayerSounds sound)
     {
-        EffectsSource.PlayOneShot(EatClip, 0.2f);
+        switch (sound)
+        {
+            case PlayerSounds.jump:
+                PlayerSource.PlayOneShot(JumpClip, 0.7f);
+                break;
+            case PlayerSounds.damage:
+                PlayerSource.PlayOneShot(DamageClip, 0.6f);
+                break;
+            case PlayerSounds.eat:
+                PlayerSource.PlayOneShot(EatClip, 0.6f);
+                break;
+        }
     }
 
     //Menu Audios
-    public void Win_Music()
-    {
-        EffectsSource.PlayOneShot(WinClip, 0.1f);
-        MusicSource.clip = null;
-    }
-    public void Lose_Music()
-    {
-        if (!EffectsSource.isPlaying && isLose_Music_Played)
-        {
-            EffectsSource.PlayOneShot(LoseClip, 0.6f);
-            isLose_Music_Played = false;
-        }
-        MusicSource.clip = null;
-    }
 
-    public void Pause_BG_Music()
+    public void PlayUISounds(UISounds sounds)
     {
-        MusicSource.Pause();
-    }
-    public void UnPause_BG_Music()
-    {
-        MusicSource.UnPause();
+        switch (sounds)
+        {
+            case UISounds.WinMusic:
+                UISource.PlayOneShot(WinClip, 0.1f);
+                break;
+            case UISounds.LoseMusic:
+                if (!UISource.isPlaying && isLose_Music_Played)
+                {
+                    UISource.PlayOneShot(LoseClip, 0.6f);
+                    isLose_Music_Played = false;
+                }
+                MusicSource.clip = null;
+                break;
+            case UISounds.Pause_BG_Music:
+                MusicSource.Pause();
+                break;
+            case UISounds.UnPause_BG_Music:
+                MusicSource.UnPause();
+                break;
+        }
     }
     public void Click_on_Buttons()
     {
-        EffectsSource.PlayOneShot(Click_on_Buttons_Clip);
+        UISource.PlayOneShot(Click_on_Buttons_Clip);
     }
 
     //Enemy Audios
-    public void Cast_Bullot()
+
+    public void PlayEnemiesSound(EnemiesSounds sounds)
     {
-        EnemiesSource.PlayOneShot(Cast_Bullot_Clip, 0.8f);
-    }
-    public void Cast_Rino_To_Wall()
-    {
-        EnemiesSource.PlayOneShot(Cast_Rino_to_Wall, 0.8f);
+        switch (sounds)
+        {
+            case EnemiesSounds.Cast_Bullot:
+                EnemiesSource.PlayOneShot(Cast_Bullot_Clip, 0.8f);
+                break;
+            case EnemiesSounds.Cast_Rino_to_Wall:
+                EnemiesSource.PlayOneShot(Cast_Rino_to_Wall_Clip, 0.8f);
+                break;
+        }
     }
 }

@@ -2687,6 +2687,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1252844993}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Click_on_Buttons
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &446875427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3266,6 +3278,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1174517673}
         m_TargetAssemblyTypeName: Start_Menu_Game_Manager, Assembly-CSharp
         m_MethodName: Reload_Level
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252844993}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Click_on_Buttons
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4606,7 +4630,6 @@ MonoBehaviour:
   Jump: 15
   Score: 0
   Score_text: {fileID: 667576211}
-  A_Walk: {fileID: 0}
   A_Jump: {fileID: 8300000, guid: 7172d017b08a3864caebe791e4983a1b, type: 3}
   A_Damage: {fileID: 8300000, guid: 6dbb21219eb049b4d91605f4b5c102e4, type: 3}
   GroundCheckDistance: 0.96
@@ -5354,6 +5377,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1174517673}
         m_TargetAssemblyTypeName: Start_Menu_Game_Manager, Assembly-CSharp
         m_MethodName: Reload_Level
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252844993}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Click_on_Buttons
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6179,6 +6214,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1174517673}
         m_TargetAssemblyTypeName: Start_Menu_Game_Manager, Assembly-CSharp
         m_MethodName: Reload_Level
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252844993}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Click_on_Buttons
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -49178,7 +49225,6 @@ GameObject:
   - component: {fileID: 1174517671}
   - component: {fileID: 1174517672}
   - component: {fileID: 1174517673}
-  - component: {fileID: 1174517674}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -49240,103 +49286,6 @@ MonoBehaviour:
   Play_List: {fileID: 0}
   Store_menu: {fileID: 0}
   Setting_menu: {fileID: 0}
---- !u!82 &1174517674
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174517670}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1187307854
 GameObject:
   m_ObjectHideFlags: 0
@@ -49830,7 +49779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 1252844991}
   PlayerSource: {fileID: 1252844991}
-  EffectsSource: {fileID: 1252844991}
+  UISource: {fileID: 1252844991}
   EnemiesSource: {fileID: 1252844991}
   BG_Music: {fileID: 8300000, guid: ab0ea2c6d3715c04ca58c42684da5f5a, type: 3}
   WinClip: {fileID: 8300000, guid: 337b06414b08462458e4332ebc55ff78, type: 3}
@@ -49841,7 +49790,7 @@ MonoBehaviour:
   DamageClip: {fileID: 8300000, guid: fb8612727e561774b8eeb485cc2e843e, type: 3}
   EatClip: {fileID: 8300000, guid: 47b9bd14a1df1184fb9fb05f1ddd9cfa, type: 3}
   Cast_Bullot_Clip: {fileID: 8300000, guid: 0886e41c66e7dd544a530b8da200b437, type: 3}
-  Cast_Rino_to_Wall: {fileID: 8300000, guid: 334aa95d3370a9f4c9803b3ae8590c1d, type: 3}
+  Cast_Rino_to_Wall_Clip: {fileID: 8300000, guid: 334aa95d3370a9f4c9803b3ae8590c1d, type: 3}
   isLose_Music_Played: 0
 --- !u!1 &1283985687
 GameObject:
@@ -50184,6 +50133,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1174517673}
         m_TargetAssemblyTypeName: Start_Menu_Game_Manager, Assembly-CSharp
         m_MethodName: Back_to_Start_Menu_from_Levels
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252844993}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Click_on_Buttons
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -50741,7 +50702,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1174517673}
         m_TargetAssemblyTypeName: Start_Menu_Game_Manager, Assembly-CSharp
-        m_MethodName: Back_to_Playe_List_from_Levels
+        m_MethodName: Back_to_Play_List_from_Levels
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252844993}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Click_on_Buttons
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -53817,6 +53790,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1174517673}
         m_TargetAssemblyTypeName: Start_Menu_Game_Manager, Assembly-CSharp
         m_MethodName: Back_to_Playe_List_from_Levels
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1252844993}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: Click_on_Buttons
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

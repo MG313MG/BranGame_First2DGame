@@ -173,8 +173,8 @@ MonoBehaviour:
     y: 0
     width: 716
     height: 368
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -760,9 +760,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 430.05344, y: 192.23622, z: -1.7475759}
+    m_Target: {x: 358.7722, y: 231.24246, z: -1.4909962}
     speed: 2
-    m_Value: {x: 430.05344, y: 192.23622, z: -1.7475759}
+    m_Value: {x: 358.7722, y: 231.24246, z: -1.4909962}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -812,9 +812,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 184.75787
+    m_Target: 159.09996
     speed: 2
-    m_Value: 184.75787
+    m_Value: 159.09996
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 76
+  controlID: 585
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -1031,8 +1031,8 @@ MonoBehaviour:
     y: 0
     width: 447.19995
     height: 383.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -1077,23 +1077,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: a220ffff0afbffff10b400006cb00100
+      m_SelectedIDs: 12550100
+      m_LastClickedID: 87314
+      m_ExpandedIDs: ec97ffff6ec4ffff0afbffff6aed000008ee000024ef000070560100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: BackGround
+        m_OriginalName: BackGround
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 87924
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 10}
@@ -1177,7 +1177,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Musics/Game Manager
+    - Assets/Scenes/Menu
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1187,16 +1187,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 52
   m_LastFolders:
-  - Assets/Musics/Game Manager
+  - Assets/Scenes/Menu
   m_LastFoldersGridSize: 52
   m_LastProjectPath: E:\GitHub Unity Projects\BranGame_First2DGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3cbc0000
-    m_LastClickedID: 48188
-    m_ExpandedIDs: 000000004aba00004cba00004eba000050ba00002cbc00003cbc000000ca9a3b
+    m_SelectedIDs: 30dd0000
+    m_LastClickedID: 56624
+    m_ExpandedIDs: 000000008eb9000090b9000092b9000094b9000096b90000f4b9000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1225,7 +1225,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004aba00004cba00004eba000050ba0000
+    m_ExpandedIDs: 000000008eb9000090b9000092b9000094b9000096b9000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1251,8 +1251,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 12550100
+    m_LastClickedInstanceID: 87314
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: dee2000070e400002ab50000d4b5000038b5000094bb0000f0cd0000d8b700004cd0000068c80000c6b80000dab300001cb4000006b40000c4bf00007eb50000f2b4000094b50000e6b4000000000000
     m_RenameOverlay:

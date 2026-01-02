@@ -23,7 +23,7 @@ public class Item : MonoBehaviour
             player.Score += Add_score;
             player.Set_Score();
             Debug.Log(player.Score);
-            AudioManager.Instance.Eat_Fruits();
+            AudioManager.Instance.PlayPlayerSounds(PlayerSounds.eat);
             Instantiate(EffectPerfab, transform.position,Quaternion.identity);
             Destroy(gameObject);
         }
