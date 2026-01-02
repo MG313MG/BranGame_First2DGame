@@ -52,23 +52,23 @@ public class AudioManager : MonoBehaviour
     // Player Audios
     public void Jump_Player()
     {
-        PlayerSource.PlayOneShot(JumpClip, 0.8f);
+        PlayerSource.PlayOneShot(JumpClip, 0.7f);
     }
     public void Damage_Player()
     {
-        PlayerSource.PlayOneShot(DamageClip, 0.5f);
+        PlayerSource.PlayOneShot(DamageClip, 0.45f);
     }
     
     //Items Audios
     public void Eat_Fruits()
     {
-        EffectsSource.PlayOneShot(EatClip);
+        EffectsSource.PlayOneShot(EatClip, 0.2f);
     }
 
     //Menu Audios
     public void Win_Music()
     {
-        EffectsSource.PlayOneShot(WinClip, 0.6f);
+        EffectsSource.PlayOneShot(WinClip, 0.1f);
         MusicSource.clip = null;
     }
     public void Lose_Music()
@@ -97,10 +97,10 @@ public class AudioManager : MonoBehaviour
     //Enemy Audios
     public void Cast_Bullot()
     {
-        EnemiesSource.PlayOneShot(Cast_Bullot_Clip);
+        EnemiesSource.PlayOneShot(Cast_Bullot_Clip, 0.8f);
     }
     public void Cast_Rino_To_Wall()
     {
-        EnemiesSource.PlayOneShot(Cast_Rino_to_Wall);
+        EnemiesSource.PlayOneShot(Cast_Rino_to_Wall, 0.8f);
     }
 }

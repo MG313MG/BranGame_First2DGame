@@ -23,7 +23,7 @@ public class Start_Menu_Game_Manager : MonoBehaviour
         Setting_menu.SetActive(false);
         AudioManager.Instance.Click_on_Buttons();
     }
-    public void Back_to_Playe_List_from_Levels()
+    public void Back_to_Play_List_from_Levels()
     {
         SceneManager.LoadScene("Start_menu");
         AudioManager.Instance.Click_on_Buttons();

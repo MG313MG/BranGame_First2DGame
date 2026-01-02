@@ -5046,8 +5046,7 @@ Transform:
   m_LocalPosition: {x: 412.8007, y: 163.45996, z: -1.1663684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1717735665}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &921775607
@@ -10414,7 +10413,7 @@ GameObject:
   - component: {fileID: 1717735667}
   - component: {fileID: 1717735666}
   m_Layer: 0
-  m_Name: Music Manager
+  m_Name: Sounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10428,12 +10427,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717735664}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 451.8007, y: 163.45996, z: -1.1663684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 916341825}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1717735666
 AudioSource:
@@ -10544,8 +10543,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8562822b9beda343a6b7cfe28be5574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A_Jump: {fileID: 8300000, guid: 7172d017b08a3864caebe791e4983a1b, type: 3}
-  A_Walk: {fileID: 8300000, guid: 8ea91c6095b692944af29f1fafcb7f3a, type: 3}
+  MusicSource: {fileID: 0}
+  PlayerSource: {fileID: 0}
+  EffectsSource: {fileID: 1717735666}
+  EnemiesSource: {fileID: 0}
+  BG_Music: {fileID: 0}
+  WinClip: {fileID: 0}
+  LoseClip: {fileID: 0}
+  Click_on_Buttons_Clip: {fileID: 8300000, guid: 7c1064ac220f3c1459ffcf4f646b6552, type: 3}
+  WalkClip: {fileID: 0}
+  JumpClip: {fileID: 0}
+  DamageClip: {fileID: 0}
+  EatClip: {fileID: 0}
+  Cast_Bullot_Clip: {fileID: 0}
+  Cast_Rino_to_Wall: {fileID: 0}
+  isLose_Music_Played: 0
 --- !u!1 &1745517313
 GameObject:
   m_ObjectHideFlags: 0
@@ -12825,3 +12837,4 @@ SceneRoots:
   - {fileID: 779016839}
   - {fileID: 121397034}
   - {fileID: 916341825}
+  - {fileID: 1717735665}
