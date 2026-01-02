@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
-    private AudioSource MyAudio;
-
     private GameObject Player;
     private GameObject End;
     public GameObject Music;
@@ -18,12 +16,12 @@ public class GameManager : MonoBehaviour
     public GameObject Pause;
     public GameObject Score;
 
+
     [SerializeField] private bool isStop;
     
     void Start()
     {
         Time.timeScale = 1;
-        MyAudio = GetComponent<AudioSource>();
 
         Player = GameObject.FindGameObjectWithTag("Player");
         End = GameObject.FindGameObjectWithTag("End");
@@ -42,12 +40,14 @@ public class GameManager : MonoBehaviour
                     Time.timeScale = 0;
                     Pause.SetActive(true);
                     Score.SetActive(true);
+                    AudioManager.Instance.Pause_BG_Music();
                 }
                 else
                 {
                     Time.timeScale = 1;
                     Pause.SetActive(false);
                     Score.SetActive(false);
+                    AudioManager.Instance.UnPause_BG_Music();
                 }
                 isStop = !isStop;
             }
@@ -56,6 +56,7 @@ public class GameManager : MonoBehaviour
         if (Player == null)
         {
             Lose.SetActive(true);
+            AudioManager.Instance.Lose_Music();
             Time.timeScale = 0;
             Score.SetActive(true);
             //Music.SetActive(false);
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour
         if (End == null)
         {
             Win.SetActive(true);
+            AudioManager.Instance.Win_Music();
             Time.timeScale = 0;
             Score.SetActive(true);
             //Music.SetActive(true);

@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
+    private AudioSource audio_source;
 
     [Header("Health")]
     public int Health = 3;
@@ -18,6 +19,12 @@ public class Player : MonoBehaviour
     [Header("Score")]
     public int Score;
     public TMP_Text Score_text;
+
+    [Header("Audios")]
+    [SerializeField] private AudioClip A_Walk;
+    [SerializeField] private AudioClip A_Jump;
+    [SerializeField] private AudioClip A_Damage;
+
 
     [Header("Collision")]
     [SerializeField] private float GroundCheckDistance;
@@ -47,10 +54,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        audio_source = GetComponent<AudioSource>();
 
         xScale = transform.localScale.x;
-
-        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -120,9 +127,11 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, Jump);
+            AudioManager.Instance.Jump_Player();
         }
         if (Input.GetKeyDown(KeyCode.Space) && !IsGrounded && IsWall)
         {
+            AudioManager.Instance.Jump_Player();
             if (FaceRight)
             {
                 FaceRight = false;
@@ -166,8 +175,8 @@ public class Player : MonoBehaviour
 
         if (xInput == -1)
         {
-            FaceRight = false;
             FaceDir = -1;
+            FaceRight = false;
             transform.localScale = new Vector3(-xScale, transform.localScale.y, transform.localScale.z);
         }
         if (xInput == 1)
@@ -201,6 +210,7 @@ public class Player : MonoBehaviour
             return;
 
         Health -= 1;
+        AudioManager.Instance.Damage_Player();
         anim.SetTrigger("isHit");
 
         IsWallJumping = false;

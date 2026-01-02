@@ -81,6 +81,7 @@ public class Rino : MonoBehaviour
 
         if (PlayerisHere && isWall)
         {
+            AudioManager.Instance.Cast_Rino_To_Wall();
             damaged = true;
             anim.SetTrigger("isHit");
             Health -= 1;

@@ -36,8 +36,8 @@ public class Bullet : MonoBehaviour
     private IEnumerator Destroy_Bullet() 
     {
         yield return new WaitForSeconds(4);
+        AudioManager.Instance.Cast_Bullot();
         Destroy(gameObject);
-        
     }
 
 }
